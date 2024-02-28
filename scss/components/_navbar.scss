@@ -1,0 +1,11 @@
+.navbar-michiland {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    a {
+        color: #FFFFFF;
+        font-family: $mainFont;
+        padding: 4px 8px 4px 8px;
+        font-size: 18px;
+    }
+}

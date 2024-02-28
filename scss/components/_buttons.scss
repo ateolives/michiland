@@ -1,0 +1,19 @@
+
+.btn {
+    font-family: $mainFont;
+    &:hover {
+        background-color: $mainColor;
+    }
+}
+
+.btn-success {
+    background-color: $mainColor;
+    border: none;
+    &:hover {
+        background-color: #2f4639;
+    }
+}
+
+.btn-dark {
+    border: none;
+}

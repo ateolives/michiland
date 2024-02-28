@@ -1,0 +1,17 @@
+//base//
+@import 'base/vars';
+@import 'base/reset';
+
+//components//
+@import 'components/header';
+@import 'components/navbar';
+@import 'components/buttons';
+@import 'components/footer';
+
+//layout
+@import 'layout/index';
+@import 'layout/blog';
+@import 'layout/adopciones';
+@import 'layout/libros';
+@import 'layout/contacto';
+@import 'layout/mediaqueries';

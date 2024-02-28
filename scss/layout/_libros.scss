@@ -1,0 +1,15 @@
+.carousel-libros {
+    h5 {
+        font-family: $mainFont;
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: fill;
+}

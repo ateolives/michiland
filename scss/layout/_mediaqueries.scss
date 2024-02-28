@@ -1,0 +1,83 @@
+
+
+  /* RESPONSIVE */
+  @media screen and (max-width: 426px) {
+    .grid {
+      padding: 15px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 300px);
+      gap: 30px;
+      align-items: center;
+      justify-items: center; 
+      justify-content: center;
+      align-content: center;
+      place-items: end center;
+      grid-template-areas:
+        ' a6 '
+        ' a5 '
+        ' a4 '
+        ' a3 '
+        ' a2 '
+        ' a1 ';
+    }
+  }
+
+@media (max-width: 426px) {
+    .logo-michiland {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar-michiland {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            font-size: 12px;
+            padding: 2px 4px 2px 4px; 
+        }
+    }
+
+    h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .card-img-top {
+        height: 100px;
+        object-fit: fill;
+    }
+  }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 42px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .img-home {
+        width: 250px;
+        height: 250px;
+        padding-top: 16px;
+    }
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    i {
+        font-size: 16px;
+    }
+    .card-img-top {
+        height: 300px;
+        object-fit: fill;
+    }
+}
